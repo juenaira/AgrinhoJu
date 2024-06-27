@@ -1,11 +1,9 @@
-/* Reset básico para remoção de margens e preenchimentos padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos para o cabeçalho */
 header {
     background-color: #4CAF50;
     color: white;
@@ -13,19 +11,16 @@ header {
     padding: 20px;
 }
 
-/* Estilos para o título principal */
 h1 {
     font-size: 2.5rem;
 }
 
-/* Estilos para o conteúdo principal */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
-/* Estilos para a seção "Sobre o Milho" */
 #sobre-milho {
     margin-bottom: 20px;
 }
@@ -48,7 +43,6 @@ main {
     margin-top: 10px;
 }
 
-/* Estilos para o rodapé */
 footer {
     background-color: #333;
     color: white;
