@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #384b40;
 }
 
 .container {
@@ -20,8 +20,8 @@ body {
 }
 
 header {
-    background: #228B22;
-    color: #fff;
+    background: #d61010;
+    color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #77b300 3px solid;
@@ -108,7 +108,7 @@ section p {
 }
 
 footer {
-    background: #228B22;
+    background: #8b2222;
     color: #fff;
     text-align: center;
     padding: 20px 0;
