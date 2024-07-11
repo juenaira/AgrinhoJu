@@ -1,38 +1,121 @@
-element.style {
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
-.principal {
-    background-image: url(Img/Background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
+
+header {
+    background: #228B22;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b300 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+}
+
+#hero {
+    background: url('https://source.unsplash.com/1600x900/?farm,field') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
     text-align: center;
 }
-* {
-    padding: 0px;
-    margin: 0px;
+
+#hero .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-user agent stylesheet
+
+#hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
 section {
-    display: block;
-    unicode-bidi: isolate;
+    margin-bottom: 40px;
 }
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+
+section h2 {
+    margin-bottom: 20px;
+    color: #228B22;
+    border-bottom: 2px solid #228B22;
+    padding-bottom: 10px;
 }
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
-    --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+
+section p {
+    margin-bottom: 10px;
+}
+
+.tecnica {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.tecnica h3 {
+    color: #228B22;
+}
+
+footer {
+    background: #228B22;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
