@@ -28,7 +28,7 @@ header {
 }
 
 header a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -57,7 +57,7 @@ header h1 {
 #hero {
     background: url('https://source.unsplash.com/1600x900/?farm,field') no-repeat center center/cover;
     height: 500px;
-    color: #fff;
+    color: #000000;
     text-align: center;
 }
 
